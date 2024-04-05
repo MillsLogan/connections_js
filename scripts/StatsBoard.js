@@ -81,5 +81,6 @@ class StatsBoard{
         statsTable.querySelector("tr:nth-child(3) td:nth-child(2)").textContent = this.#statsObject.winStreak;
         statsTable.querySelector("tr:nth-child(4) td:nth-child(2)").textContent = this.#statsObject.totalGuesses;
         statsTable.querySelector("tr:nth-child(5) td:nth-child(2)").textContent = `${(this.#statsObject.winPercentage * 100).toFixed(2)}%`;
+        statsTable.querySelector("tr:nth-child(6) td:nth-child(2)").textContent = this.#statsObject.averageGuesses;
     }
 }
