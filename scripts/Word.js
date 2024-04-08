@@ -11,6 +11,7 @@ class Word{
         this.#container.classList.add("col-3");
         this.#button = document.createElement("button");
         this.#button.classList.add("btn", "btn-outline-dark", "word-cell");
+        this.#button.type = "button";
         this.#button.textContent = this.#word;
         this.#button.addEventListener("click", this.#handleClick.bind(this));
         this.#container.appendChild(this.#button);

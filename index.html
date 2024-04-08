@@ -49,28 +49,30 @@
 
                 </div>
 
-                <div class="game-board" id="game-board">
+                <form>
+                    <div class="game-board" id="game-board">
 
-                </div>
-                <button class="btn btn-primary" id="submit-guess">Submit</button>
-                <button class="btn btn-secondary" id="shuffle-board">Shuffle Board</button>
-                <button class="btn btn-light" id="clear-selection">Clear Selected</button>
-                <button class="btn btn-success" id="new-game">New Game</button>
-                
-                <table class="table table-striped table-bordered table-hover mt-5" id="history-table">
-                    <thead>
-                        <tr>
-                            <th>Word 1</th>
-                            <th>Word 2</th>
-                            <th>Word 3</th>
-                            <th>Word 4</th>
-                            <th>Feedback</th>
-                        </tr>
-                    </thead>
-                    <tbody id="history-table-body">
-                        
-                    </tbody>
-                </table>
+                    </div>
+                    <button class="btn btn-primary" id="submit-guess" type="button">Submit</button>
+                    <button class="btn btn-secondary" id="shuffle-board" type="button">Shuffle Board</button>
+                    <button class="btn btn-light" id="clear-selection" type="button">Clear Selected</button>
+                    <button class="btn btn-success" id="new-game" type="button">New Game</button>
+                    
+                    <table class="table table-striped table-bordered table-hover mt-5" id="history-table">
+                        <thead>
+                            <tr>
+                                <th>Word 1</th>
+                                <th>Word 2</th>
+                                <th>Word 3</th>
+                                <th>Word 4</th>
+                                <th>Feedback</th>
+                            </tr>
+                        </thead>
+                        <tbody id="history-table-body">
+                            
+                        </tbody>
+                    </table>
+                </form>
             </section>
         
             <section class="col-12 col-md-8 col-lg-4" id="stats-section">
