@@ -5,10 +5,15 @@ async function clearHistory(){
     controller.connect();
 }
 
-clearHistoryButton = document.getElementById("clear-history");
+let clearHistoryButton = document.getElementById("clear-history");
 clearHistoryButton.addEventListener("click", clearHistory);
 
-controller.connect();
+document.onreadystatechange = async function(){
+    if(document.readyState === "complete"){
+        await setupPromise;
+        controller.connect();
+    }
+}
 
 
 

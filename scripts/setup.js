@@ -12,4 +12,4 @@ async function setup() {
     await load;
 }
 
-setup();
+let setupPromise = setup();
