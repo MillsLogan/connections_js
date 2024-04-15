@@ -38,6 +38,36 @@
 </head>
 
 <body>
+    <header class="container-flex bg-theme">
+        <nav id="navbar" class="navbar container navbar-expand-lg navbar-dark bg-theme">
+            <a id="navbar-logo-link" class="navbar-brand" href="/"><img id="logo-image-link" src="images/avatar.PNG" width="50" height="50" alt=""></a>
+            <button id="navbar-toggler-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="navbar-toggle-icon" class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul id="navbar-links-list" class="navbar-nav">
+                    <li id="navbar-home" class="nav-item active">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li id="navbar-projects" class="nav-item">
+                        <a id="navbar-projects-link" class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li id="navbar-contact" class="nav-item">
+                        <a id="navbar-contact-link" class="nav-link" href="/contact">Contact</a>
+                    </li>
+                    <li id="navbar-about" class="nav-item">
+                        <a id="navbar-about-link" class="nav-link" href="/about">About</a>
+                    </li>
+                    <li id="navbar-coursework" class="nav-item">
+                        <a id="navbar-about-link" class="nav-link" href="/coursework">Coursework</a>
+                    </li>
+                    <li id="navbar-resume" class="nav-item">
+                        <a id="navbar-about-link" class="nav-link" href="/resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main class="container-xl">
         <div class="row center-justify text-center align-center">
             <section class="col-12 col-lg-8" id="game-section">
@@ -86,6 +116,19 @@
             </section>
         </div>
     </main>
+    <footer class="py-3 bg-theme footer">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="/projects" class="nav-link px-2">Projects</a></li>
+            <li class="nav-item"><a href="/contact" class="nav-link px-2">Contact</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link px-2">About</a></li>
+            <li class="nav-item"><a href="/coursework" class="nav-link px-2">Coursework</a></li>
+            <li class="nav-item"><a href="/resume" class="nav-link px-2">Resume</a></li>
+        </ul>
+        <p class="text-center">© 2024 Logan Mills</p>
+      </footer>
+
+
     <script src="scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
