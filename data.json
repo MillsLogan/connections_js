@@ -1,0 +1,45 @@
+{
+    "categories": [
+    {
+      "category": "Types of Clouds",
+      "words": ["Cumulus", "Stratus", "Cirrus", "Nimbus"]
+    },
+    {
+      "category": "Shakespeare Plays",
+      "words": ["Hamlet", "Macbeth", "Othello", "King Lear"]
+    },
+    {
+      "category": "Programming Languages",
+      "words": ["Python", "Java", "Rust", "C#"]
+    },
+    {
+      "category": "Card Suits",
+      "words": ["Hearts", "Diamonds", "Clubs", "Spades"]
+    },
+    {
+      "category": "U.S. State Capitals",
+      "words": ["Austin", "Sacramento", "Albany", "Denver"]
+    },
+    {
+      "category": "Four-Legged Animals",
+      "words": ["Tiger", "Elephant", "Giraffe", "Wolf"]
+    },
+    {
+      "category": "Types of Rock",
+      "words": ["Igneous", "Sedimentary", "Metamorphic", "Obsidian"]
+    },
+    {
+      "category": "Board Games",
+      "words": ["Chess", "Monopoly", "Scrabble", "Clue"]
+    },
+    {
+      "category": "Fast Food Chains",
+      "words": ["McDonald's", "Burger King", "Wendy's", "KFC"]
+    },
+    {
+      "category": "Planets in the Solar System",
+      "words": ["Mercury", "Venus", "Earth", "Mars"]
+    }
+  ]
+}
+  

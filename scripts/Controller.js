@@ -158,7 +158,8 @@ class Controller{
     }
 
     async #setupGame(){
-        if(localStorage.getItem("game")){
+        console.log(localStorage.getItem("game"));
+        if(localStorage.getItem("game") !== null && localStorage.getItem("game") !== "null"){
             this.#gameObject = Game.fromJSON(JSON.parse(localStorage.getItem("game")));
         }else{
             await this.#newGame();
